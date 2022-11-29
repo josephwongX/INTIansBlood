@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338461127214",
+    "project_id": "intiansblood",
+    "storage_bucket": "intiansblood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338461127214:android:0d414526093370c2bee5bf",
+        "android_client_info": {
+          "package_name": "com.example.intiansblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338461127214-ht0jic7urk63cjn8bdmknc8mr7366kfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsVzauOabUeQp2wejYqJmkyKSTpMKYRXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338461127214-ht0jic7urk63cjn8bdmknc8mr7366kfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

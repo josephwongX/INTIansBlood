@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FAQsActivity">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar04"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorPrimary"
+      app:titleTextColor="@color/white"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      app:layout_constraintTop_toTopOf="parent">
+      <ImageButton
+          android:id="@+id/iB01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ia6"
+          android:background="@color/colorPrimary"
+          app:tint="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQs"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textStyle="normal"/>
+  </androidx.appcompat.widget.Toolbar>
+    <WebView
+        android:elevation="8dp"
+        android:id="@+id/wV01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+  </LinearLayout>
